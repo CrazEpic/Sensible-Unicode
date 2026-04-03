@@ -1,4 +1,4 @@
-# Sensible Unicode
+# 🤠 Sensible Unicode
 
 A file scanner that detects suspicious Unicode characters in your documents. Upload files and instantly identify hidden or unusual Unicode characters that don't match your configured ignore rules.
 
