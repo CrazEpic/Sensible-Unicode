@@ -155,7 +155,7 @@ const isSuspicious = (char: string) => {
 
 	// For other ASCII characters, not suspicious
 	const codePoint = char.codePointAt(0)
-	if (codePoint === undefined || codePoint <= 127) return false
+	if (codePoint === undefined || (32 <= codePoint && codePoint <= 127)) return false
 
 	// For non-ASCII, suspicious
 	return true
